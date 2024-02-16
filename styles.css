@@ -1,0 +1,67 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#notes-container {
+    max-width: 500px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #ff6f61;
+}
+
+#note-input {
+    width: calc(100% - 85px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #ff6f61;
+    border-radius: 5px;
+}
+
+#add-btn {
+    width: 80px;
+    padding: 10px;
+    background-color: #ff6f61;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#add-btn:hover {
+    background-color: #ff5249;
+}
+
+.note {
+    background-color: #ffd166;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.delete-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-weight: bold;
+    color: #ff6f61;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    color: #ff5249;
+}
